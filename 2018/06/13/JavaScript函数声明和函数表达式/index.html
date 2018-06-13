@@ -101,7 +101,7 @@
 <meta property="og:url" content="http://InvokerGeek.com/2018/06/13/JavaScript函数声明和函数表达式/index.html">
 <meta property="og:site_name" content="InvokerGeek">
 <meta property="og:description" content="JavaScript函数声明和函数表达式  创建JavaScript函数的两种方式：函数声明和函数表达式 函数声明   一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#123">
-<meta property="og:updated_time" content="2018-06-13T04:53:55.794Z">
+<meta property="og:updated_time" content="2018-06-13T05:14:05.044Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="详解JavaScript函数声明和函数表达式">
 <meta name="twitter:description" content="JavaScript函数声明和函数表达式  创建JavaScript函数的两种方式：函数声明和函数表达式 函数声明   一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#123">
@@ -395,7 +395,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  707
+                  709
                 </span>
               
 
@@ -452,16 +452,16 @@
 </blockquote>
 <p></p><h3>函数声明和函数表达式的区别</h3><br>①：在处理其他代码前，首先先处理函数声明，即<strong>函数声明提升</strong>，函数将在代码执行前创建；而使用函数表达式时，函数将在运行阶段执行代码时创建。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">box1(<span class="number">3</span>);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">boxbox1</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Boxing!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;    <span class="comment">//函数声明提示，是正确的写法</span></div></pre></td></tr></table></figure><p></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">box2(<span class="number">3</span>); </div><div class="line"><span class="keyword">var</span> box2 = functionbox12(num) &#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Jumping!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;    <span class="comment">//在函数表达式中，是错误的写法</span></div></pre></td></tr></table></figure>
-<p>②：函数表达式与其他代码一起按顺序被处理。<br>③：函数声明不返回指向函数的引用，而是隐式的创建一个同函数名相同的变量，变量保存指向函数的引用。<br>④：函数表达式返回一个引用，而是显式的创建一个变量，变量保存指向表达式所创建函数的引用。<br>⑤：函数声明是完整的语句，而函数表达式只是语句的一部分。</p>
+<p>②：函数表达式与其他代码一起按顺序被处理。<br>③：函数声明不返回指向函数的引用，而是隐式的创建一个同函数名相同的变量，变量保存指向函数的引用。<br>④：函数表达式返回一个引用，并且显式的创建一个变量，变量保存指向函数表达式所创建函数的引用。<br>⑤：函数声明是完整的语句，而函数表达式只是语句的一部分。</p>
 <blockquote>
 <p>提示：两种创建方式，使用相同的方式处理调用它们的语句。</p>
 </blockquote>
 <p></p><h3>反馈与建议 </h3><p></p>
 <ul>
-<li>邮箱：<a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x49;&#x6e;&#x76;&#x6f;&#107;&#101;&#114;&#x47;&#x65;&#101;&#x6b;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;">&#x49;&#x6e;&#x76;&#x6f;&#107;&#101;&#114;&#x47;&#x65;&#101;&#x6b;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;</a></li>
+<li>邮箱：<a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#73;&#110;&#x76;&#x6f;&#x6b;&#x65;&#x72;&#71;&#x65;&#x65;&#107;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#73;&#110;&#x76;&#x6f;&#x6b;&#x65;&#x72;&#71;&#x65;&#x65;&#107;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></li>
 </ul>
 <hr>
-<p>感谢阅读这份帮助文档，如果对您有所帮助，请持续关注博主。</p>
+<p>♥感谢阅读这份帮助文档，如果对您有所帮助，请持续关注博主。</p>
 
       
     </div>
