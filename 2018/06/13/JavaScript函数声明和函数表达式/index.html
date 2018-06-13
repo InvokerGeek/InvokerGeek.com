@@ -95,16 +95,16 @@
 
 
 
-<meta name="description" content="##JavaScript函数声明和函数表达式 创建JavaScript函数的两种方式：函数声明和函数表达式 ###函数声明  一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#">
+<meta name="description" content="JavaScript函数声明和函数表达式  创建JavaScript函数的两种方式：函数声明和函数表达式 函数声明   一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#123">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaScript函数声明和函数表达式">
 <meta property="og:url" content="http://InvokerGeek.com/2018/06/13/JavaScript函数声明和函数表达式/index.html">
 <meta property="og:site_name" content="InvokerGeek">
-<meta property="og:description" content="##JavaScript函数声明和函数表达式 创建JavaScript函数的两种方式：函数声明和函数表达式 ###函数声明  一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#">
-<meta property="og:updated_time" content="2018-06-13T01:57:42.142Z">
+<meta property="og:description" content="JavaScript函数声明和函数表达式  创建JavaScript函数的两种方式：函数声明和函数表达式 函数声明   一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#123">
+<meta property="og:updated_time" content="2018-06-13T04:48:23.391Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript函数声明和函数表达式">
-<meta name="twitter:description" content="##JavaScript函数声明和函数表达式 创建JavaScript函数的两种方式：函数声明和函数表达式 ###函数声明  一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#">
+<meta name="twitter:description" content="JavaScript函数声明和函数表达式  创建JavaScript函数的两种方式：函数声明和函数表达式 函数声明   一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。  使用函数声明创建一个函数的方法如下代码所示： 123456function box1(num) &amp;#123;	for (var i = 0; i &amp;lt; num.length; i++) &amp;#123">
 
 
 
@@ -350,7 +350,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-13T09:57:42+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-13T12:48:23+08:00">
                 Jun 13 2018
               </time>
             
@@ -395,7 +395,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  712
+                  707
                 </span>
               
 
@@ -429,29 +429,33 @@
       
 
       
-        <p>##JavaScript函数声明和函数表达式</p>
+        <h2>JavaScript函数声明和函数表达式</h2>
+
 <p>创建JavaScript函数的两种方式：<strong>函数声明</strong>和<strong>函数表达式</strong></p>
-<p>###函数声明</p>
+<h3>函数声明</h3>
+
 <blockquote>
 <p>一个标准的函数声明，由关键字function，函数名，形式参数和代码块组成。</p>
 </blockquote>
 <p>使用函数声明创建一个函数的方法如下代码所示：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">box1</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Boxing!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line">box(<span class="number">3</span>);    <span class="comment">//调用函数，在函数名后加上用圆括号括起的实参</span></div></pre></td></tr></table></figure>
-<p>###函数表达式</p>
+<h3>函数表达式</h3>
+
 <blockquote>
 <p>函数表达式的结果是一个值，这个值被赋给一个变量，然后进行调用，变量保存的是一个指向函数引用。</p>
 </blockquote>
 <p>使用函数表达式创建一个函数的方法如下代码所示：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> box2 = <span class="function"><span class="keyword">function</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Jumping!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line">box2(<span class="number">3</span>);    <span class="comment">//调用函数，必须使用变量名调用函数</span></div></pre></td></tr></table></figure>
-<p>###函数声明内部运作原理：<br>    在执行代码之前，浏览器首先查找是否有函数声明所创建的函数，找到函数声明时，必须先对其进行优先处理，然后再处理其他的代码，随后，浏览器将在内部创建相应的函数，如前面示例所创建的box1函数，将函数存储起来，以便在调用时获取。然后创建一个与函数名相同的变量如box1,来存储指向这个函数的引用，处理完所有的函数声明以后，浏览器则回到代码开头，从头按顺序执行其他代码。</p>
-<p>###函数声明和函数表达式的区别<br>1：在处理其他代码前，首先先处理函数声明，即<strong>函数声明提升</strong>，函数将在代码执行前创建；而使用函数表达式时，函数将在运行阶段执行代码时创建。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">box1(<span class="number">3</span>);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">boxbox1</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Boxing!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;    <span class="comment">//函数声明提示，是正确的写法</span></div></pre></td></tr></table></figure></p>
+<p></p><h3>函数声明内部运作原理:</h3><br>在执行代码之前，浏览器首先查找是否有函数声明所创建的函数，找到函数声明时，必须先对其进行优先处理，然后再处理其他的代码，随后，浏览器将在内部创建相应的函数，如前面示例所创建的box1函数，将函数存储起来，以便在调用时获取。然后创建一个与函数名相同的变量如box1,来存储指向这个函数的引用，处理完所有的函数声明以后，浏览器则回到代码开头，从头按顺序执行其他代码。<p></p>
+<p></p><h3>函数声明和函数表达式的区别</h3><br>①：在处理其他代码前，首先先处理函数声明，即<strong>函数声明提升</strong>，函数将在代码执行前创建；而使用函数表达式时，函数将在运行阶段执行代码时创建。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">box1(<span class="number">3</span>);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">boxbox1</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Boxing!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;    <span class="comment">//函数声明提示，是正确的写法</span></div></pre></td></tr></table></figure><p></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">box2(<span class="number">3</span>); </div><div class="line"><span class="keyword">var</span> box2 = functionbox12(num) &#123;</div><div class="line">	<span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; num.length; i++) &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="string">"Jumping!"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;    <span class="comment">//在函数表达式中，是错误的写法</span></div></pre></td></tr></table></figure>
-<p>2：函数表达式与其他代码一起按顺序被处理。<br>3：函数声明不返回指向函数的引用，而是隐式的创建一个同函数名相同的变量，变量保存指向函数的引用。<br>4：函数表达式返回一个引用，而是显式的创建一个变量，变量保存指向表达式所创建函数的引用。<br>5：函数声明是完整的语句，而函数表达式只是语句的一部分。</p>
+<p>②：函数表达式与其他代码一起按顺序被处理。<br>③：函数声明不返回指向函数的引用，而是隐式的创建一个同函数名相同的变量，变量保存指向函数的引用。<br>④：函数表达式返回一个引用，而是显式的创建一个变量，变量保存指向表达式所创建函数的引用。<br>⑤：函数声明是完整的语句，而函数表达式只是语句的一部分。</p>
 <blockquote>
 <p>提示：两种创建方式，使用相同的方式处理调用它们的语句。</p>
 </blockquote>
-<h3 id="反馈与建议"><a href="#反馈与建议" class="headerlink" title="反馈与建议"></a>反馈与建议</h3><ul>
-<li>邮箱：<a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x49;&#x6e;&#118;&#111;&#107;&#101;&#x72;&#71;&#101;&#101;&#x6b;&#x40;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;">&#x49;&#x6e;&#118;&#111;&#107;&#101;&#x72;&#71;&#101;&#101;&#x6b;&#x40;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;</a></li>
+<p></p><h3>反馈与建议 </h3><p></p>
+<ul>
+<li>邮箱：<a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#x49;&#x6e;&#x76;&#111;&#107;&#101;&#114;&#71;&#x65;&#101;&#x6b;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x49;&#x6e;&#x76;&#111;&#107;&#101;&#114;&#71;&#x65;&#101;&#x6b;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
 </ul>
 <hr>
 <p>感谢阅读这份帮助文档，如果对您有所帮助，请持续关注博主。</p>
@@ -693,7 +697,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#反馈与建议"><span class="nav-number">1.</span> <span class="nav-text">反馈与建议</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">JavaScript函数声明和函数表达式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.1.</span> <span class="nav-text">函数声明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.2.</span> <span class="nav-text">函数表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.3.</span> <span class="nav-text">函数声明内部运作原理:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.4.</span> <span class="nav-text">函数声明和函数表达式的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.5.</span> <span class="nav-text">反馈与建议 </span></a></li></ol></li></ol></div>
             
 
           </div>
