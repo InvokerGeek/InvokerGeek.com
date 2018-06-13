@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://InvokerGeek.com/"/>
-  <updated>2018-05-26T09:13:08.240Z</updated>
+  <updated>2018-06-13T01:16:28.753Z</updated>
   <id>http://InvokerGeek.com/</id>
   
   <author>
@@ -17,11 +17,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript函数声明和函数表达式</title>
+    <link href="http://InvokerGeek.com/2018/06/13/JavaScript%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E5%92%8C%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F-0/"/>
+    <id>http://InvokerGeek.com/2018/06/13/JavaScript函数声明和函数表达式-0/</id>
+    <published>2018-06-13T01:16:28.000Z</published>
+    <updated>2018-06-13T01:16:28.753Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>new-post</title>
+    <link href="http://InvokerGeek.com/2018/06/13/new-post/"/>
+    <id>http://InvokerGeek.com/2018/06/13/new-post/</id>
+    <published>2018-06-13T01:14:23.000Z</published>
+    <updated>2018-06-13T01:14:23.189Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://InvokerGeek.com/2018/06/12/Javascript%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E5%92%8C%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://InvokerGeek.com/2018/06/12/Javascript函数声明和函数表达式/</id>
+    <published>2018-06-12T15:50:14.900Z</published>
+    <updated>2018-06-13T00:55:27.642Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##JavaScript函数声明和函数表达式&lt;/p&gt;
+&lt;p&gt;创建JavaScript函数的两种方式：&lt;strong&gt;函数声明&lt;/strong&gt;和&lt;strong&gt;函数表达式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;###函数声明&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个标准的函数
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://InvokerGeek.com/2018/05/27/hello-world/"/>
     <id>http://InvokerGeek.com/2018/05/27/hello-world/</id>
     <published>2018-05-26T16:17:57.234Z</published>
-    <updated>2018-05-26T09:13:08.240Z</updated>
+    <updated>2018-06-12T16:04:05.930Z</updated>
     
     <summary type="html">
     
